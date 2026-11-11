@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: youtube-quality-viewer
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
